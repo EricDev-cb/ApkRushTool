@@ -1,0 +1,14 @@
+# CONFIG DO APTOOL
+
+[tools]
+java = "java"
+jadx = "jadx"
+pngquant = "pngquant"
+
+[apk]
+apktool = "./tools/apktool.jar"
+signer = "./tools/apk-signer.jar"
+apk_dir = "./input_apk"
+
+[project]
+output = "./output"
