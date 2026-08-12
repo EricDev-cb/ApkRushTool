@@ -31,14 +31,14 @@ Instalação para linux:
 
 ```bash
 sudo apt install git
-git clone https://github.com/EricDev-cb/APtool.git
+git clone https://github.com/EricDev-cb/ApkRushTool.git
 cd APtool
 python3 tool.py
 ```
 Instalação para Android (Termux)
 ```bash
 pkg install git
-git clone https://github.com/EricDev-cb/APtool.git
+git clone https://github.com/EricDev-cb/ApkRushTool.git
 cd APtool
 python3 tool.py
 ```
