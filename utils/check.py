@@ -9,7 +9,6 @@ def check_dependencies():
     java = shutil.which("java")
     if jadx is None:
         print("jadx não encontrado, encerrando...")
-        sys.exit(1)
     else:
         print(f"jadx encontrado em {jadx}")
 
