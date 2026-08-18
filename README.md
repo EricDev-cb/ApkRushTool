@@ -4,6 +4,11 @@
   <img src="assets/banner.png" alt="ART Banner" width="800">
 </p>
 
+![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=Eric.Dev&repo=https://github.com/EricDev-cb/ApkRushTool&countColorcountColor&countColor=%237B1E7B"/>
+
 ART é uma ferramenta em Python criada para automatizar a modificação de arquivos de aplicativos descompilados (APK), com foco em otimização e criação de versões "lite".
 
 Ela permite aplicar patches em massa, editar arquivos JSON automaticamente, remover recursos pesados e acelerar o processo de modding.
@@ -94,3 +99,5 @@ Se quiser melhorar a ferramenta:
 5. Abra um Pull Request 🚀
 
 Se curtir o projeto, deixa uma ⭐ no repositório!
+
+# FIM !
