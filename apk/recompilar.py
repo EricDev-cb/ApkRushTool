@@ -1,7 +1,7 @@
 from config.paths import APKTOOL
 from utils.process import run
 from apk.procurar import procurar_projeto
-from apk.procurar import procurar_apk_compilado
+#from apk.procurar import procurar_apk_compilado
 
 
 def recompilar():
@@ -23,7 +23,7 @@ def recompilar():
         str(projeto)
     ])
 
-    apk = procurar_apk_compilado(projeto)
+    apk = procurar_projeto()
 
     if apk is None:
         return

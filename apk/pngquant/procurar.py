@@ -9,15 +9,29 @@ def procurar_projeto():
         if pasta.is_dir() and (pasta / "apktool.yml").exists():
             projetos.append(pasta)
 
-    if len(projetos) == 0:
+    if not projetos:
         print("Nenhum projeto encontrado.")
         return None
 
-    if len(projetos) > 1:
-        print("Existe mais de um projeto.")
-        return None
+    if len(projetos) == 1:
+        return projetos[0]
 
-    return projetos[0]
+    print("Projetos encontrados:\n")
+
+    for i, projeto in enumerate(projetos, start=1):
+        print(f"[{i}] {projeto.name}")
+
+    while True:
+        try:
+            escolha = int(input("\nEscolha um projeto: "))
+
+            if 1 <= escolha <= len(projetos):
+                return projetos[escolha - 1]
+
+            print("Opção inválida.")
+
+        except ValueError:
+            print("Digite um número.")
 
 
 def encontrar_imagens(pasta):
